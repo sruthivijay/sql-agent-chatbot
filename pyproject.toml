@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = "FastAPI chatbot with pgvector + website scraping"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.0"
+uvicorn = { extras = ["standard"], version = "^0.30.0" }
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.34"
+pgvector = "^0.2.5"
+langchain = "^0.3.0"
+openai = "^1.50.0"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+psycopg2 = "^2.9.10"
+langchain-text-splitters = "^0.3.11"
+langchain-postgres = "^0.0.15"
+langchain-community = "^0.3.29"
+langchain-openai = "^0.3.32"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
